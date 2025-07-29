@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+.feed {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+.feed img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; 
+  height: auto;
+}
+
+/* Title and picture number styling */
+h1 {
+  display: inline;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.pic-number {
+  margin-left: 12rem;
+  font-size: 1rem;
+  color: #555;
+  vertical-align: middle;
+}
+
